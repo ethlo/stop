@@ -67,6 +67,16 @@
 		</complexType>
 	</element>
 	
+	<element name="ErrorResponse">
+		<complexType>
+			<sequence>
+				<element name="status" type="integer" />
+				<element name="message" type="string" />
+				<element name="requestId" type="string" />
+			</sequence>
+		</complexType>
+	</element>
+
 	<complexType name="AbstractUidRepresentation" abstract="true">
 		<attribute name="count" type="integer" use="required" />
 	</complexType>

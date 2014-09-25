@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://roundtable.org"
+	xmlns:tns="http://roundtable.org" elementFormDefault="qualified">
+
+	<element name="ErrorResponse">
+		<complexType>
+			<sequence>
+				<element name="status" type="integer" />
+				<element name="message" type="string" />
+				<element name="requestId" type="string" />
+			</sequence>
+		</complexType>
+	</element>
+
+</schema>
