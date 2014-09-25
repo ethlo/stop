@@ -57,7 +57,7 @@
 						<complexContent>
 							<extension base="AbstractUidRepresentation">
 								<sequence>
-									<element name="uid" maxOccurs="unbounded" />
+									<element name="uid" type="string" maxOccurs="unbounded" />
 								</sequence>
 							</extension>
 						</complexContent>
